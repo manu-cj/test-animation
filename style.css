@@ -1,0 +1,37 @@
+
+
+body {
+    width: 100%;
+}
+
+#multiColor {
+    width: 500px;
+    height: 500px;
+    border: ridge 3px red;
+    background-image: url(vidéo-sans-couture-souillée-animée-de-boucle-fond-effet-d-aquarelle-couleur-rouge-jaune-orange-ardente-124422661.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: test;
+    border-radius: 500px;
+    animation-duration: 1000s;
+    animation-iteration-count: infinite;
+}
+
+#white {
+    width: 460px;
+    height: 460px;
+    border: ridge 3px red;
+    background: white;
+    z-index: 1;
+    position: absolute;
+    margin: 20px;
+    border-radius: 500px;
+    background-image: url(images.png);
+    background-size: cover;
+}
+
+@keyframes test {
+    0% {
+        transform: rotate(-360000deg);
+    }
+}
